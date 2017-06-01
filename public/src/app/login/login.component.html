@@ -1,0 +1,16 @@
+<h2>Enter a username to continue:</h2>
+<form (submit)="logreg(formData)" #formData="ngForm">
+  <input type="text"
+  name="username"
+  required
+  minlength = "3"
+  maxlength = "18"
+  ngModel
+  #username="ngModel">
+  <ul *ngIf="username.errors && (username.dirty || username.touched)">
+        <li [hidden]="!username.errors.minlength">Username must be at least 3 characters</li>
+        <li [hidden]="!username.errors.maxlength">Username must be no greater than 18 characters</li>
+        <li [hidden]="!username.errors.required">Username is required</li>
+  </ul>
+  <input type="submit" value="Login">
+</form>
