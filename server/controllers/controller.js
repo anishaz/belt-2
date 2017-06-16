@@ -11,7 +11,7 @@ module.exports = {
         newUser.save((err, savedUser) => {
           if(err){
             console.log(err);
-            return res.sendStatus(500);
+            return res.status(500).send("Sorry but you need to login in order to continue.");
           }else {
             req.session.user = savedUser;
             return res.json(savedUser);

@@ -9,3 +9,18 @@ form {
 li {
   color: red;
 }
+
+.login-form {
+  background: black;
+  width: 100%;
+  padding: 100px;
+  margin: auto;
+}
+
+.login-header {
+  color: white;
+}
+
+.submit-button {
+  width: 100px;
+}
