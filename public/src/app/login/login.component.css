@@ -11,14 +11,13 @@ li {
 }
 
 .login-form {
-  background: black;
   width: 100%;
   padding: 100px;
   margin: auto;
 }
 
 .login-header {
-  color: white;
+  color: #B07BAC;
 }
 
 .submit-button {
