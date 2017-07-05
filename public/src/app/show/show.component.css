@@ -2,6 +2,7 @@ button{
   background-color: #DBF9F4;
   width: 100px;
   font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
 
 table {
@@ -15,7 +16,7 @@ th {
   padding: 20px 15px;
   text-align: center;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -25,4 +26,8 @@ td{
   font-weight: 300;
   font-size: 15px;
   text-align: center;
+}
+
+h1, h4 {
+  font-family: 'Libre Baskerville', serif;
 }
