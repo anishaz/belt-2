@@ -38,3 +38,8 @@ input[type=text]:focus {
   color: white;
   font-family: 'Libre Baskerville', serif;
 }
+
+li[_ngcontent-c1] {
+  font-family: 'Libre Baskerville', serif;
+  list-style-type: none;
+}
