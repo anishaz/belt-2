@@ -1,7 +1,28 @@
 button{
-  background-color: lightgreen;
+  background-color: #DBF9F4;
+  width: 100px;
+  font-family: 'Poppins', sans-serif;
 }
 
-table{
-  width: 30%;
+table {
+  width: 75%;
+  table-layout: fixed;
+  border: 2px solid gray;
+  font-family: 'Poppins', sans-serif;
+}
+
+th {
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+td{
+  padding: 15px;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
 }
