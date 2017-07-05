@@ -31,11 +31,15 @@ li {
 }
 
 input[type=text] {
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 2px solid #B07BAC;
-    border-radius: 4px;
-    font-size: 15px;
-    outline: none;
-    font-family: 'Poppins', sans-serif;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #B07BAC;
+  border-radius: 4px;
+  font-size: 15px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+li[_ngcontent-c1] {
+  font-family: 'Libre Baskerville', serif;
 }
