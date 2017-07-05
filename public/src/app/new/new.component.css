@@ -5,3 +5,7 @@ li {
 p {
   color:red;
 }
+
+h3, label {
+  font-family: 'Libre Baskerville', serif;
+}

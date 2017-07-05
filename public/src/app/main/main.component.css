@@ -4,6 +4,7 @@ button {
   border-radius: 3px;
   width: 100px;
   margin-left: -20px;
+  font-size: 15px;
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 table {
@@ -49,11 +50,11 @@ td{
 
 a:link, a:visited {
   color: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .button {
-  width: 180px;
+  width: 200px;
   background-color: #5F7367;
   border-radius: 3px;
   height: 40px;
@@ -67,7 +68,7 @@ a:link, a:visited {
 .button a:link, .button a:visited {
   color: white;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .logout {
