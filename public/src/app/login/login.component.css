@@ -1,6 +1,6 @@
 h2 {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 form {
@@ -18,9 +18,24 @@ li {
 }
 
 .login-header {
-  color: #B07BAC;
+  color: #5F7367;
 }
 
 .submit-button {
   width: 100px;
+  background-color: #DBF9F4;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 12px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #B07BAC;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    font-family: 'Libre Baskerville', serif;
 }
