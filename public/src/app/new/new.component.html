@@ -1,5 +1,4 @@
-<a href='/main'>Cancel</a>
-<h3>Put the question and options here:</h3><br>
+<h3>Enter the question and options:</h3><br>
 <p *ngFor="let err of errors">{{err}}</p>
 <form (submit)="addQuestion(formData)" #formData="ngForm">
 	<label>Question: <input type="text" name="question" required minlength="8" ngModel #question="ngModel"></label><br>
@@ -23,5 +22,6 @@
       <li [hidden]="!option4.errors.minlength">Option 4 must be at least 2 characters.</li>
     </ul>
 	<br>
-	<input type="submit" value="Create Poll">
+	<input type="submit" value="Create Poll" class="button">
 </form>
+<a href='/main'>Cancel</a>
