@@ -5,3 +5,6 @@
 * Main page lists the current polls available to vote on.
 * Only users who have created the poll can delete the poll.
 * Users are able to vote in the polls.
+
+[See poll site here](http://34.212.201.176)
+
