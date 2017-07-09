@@ -17,7 +17,14 @@ h1 {
 }
 
 h3 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', sans-serif;
+  text-transform: capitalize;
+}
+
+.header-area {
+  background-color: #ccc;
+  padding: 20px 15px;
+  margin-bottom: 80px;
 }
 
 table {
@@ -52,7 +59,7 @@ td{
 
 a:link, a:visited {
   color: black;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', sans-serif;
 }
 
 .button {
@@ -71,10 +78,15 @@ a:link, a:visited {
 .button a:link, .button a:visited {
   color: white;
   text-decoration: none;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', sans-serif;
 }
 
 .logout {
   float: right;
   margin-top: -38px;
+}
+
+.wrapper {
+  width: 950px;
+  margin: auto;
 }

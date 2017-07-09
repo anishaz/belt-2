@@ -1,24 +1,28 @@
-<h3 *ngIf="user">Welcome, {{user.username}}!</h3>
-<div class="logout">
-	<a href="/logout">Logout</a><br>
+<div class="header-area">
+	<h3 *ngIf="user">Welcome, {{user.username}}!</h3>
+	<div class="logout">
+		<a href="/logout">Logout</a><br>
+	</div>
 </div>
 
-<div class="button">
-	<a href="/new">Create a New Poll</a>
-</div>
+<div class="wrapper">
+	<div class="button">
+		<a href="/new">Create a New Poll</a>
+	</div>
 
-<table cellpadding="0" cellspacing="0" border="0">
-	<tr class="table-header">
-    <th>Name</th>
-		<th>Survey Question</th>
-		<th>Date Posted</th>
-		<th>Action</th>
-	</tr>
-	<tr *ngFor="let question of questions">
-    <td>{{ question._user.username }}</td>
-		<td><a [routerLink]="['/question', question._id]">{{ question.question }}</a></td>
-    <td>{{ question.createdAt | date:"longDate" }}</td>
-		<td><button *ngIf='question._user._id == user._id'
-      (click)='deleteQuestion(question._id)'>Delete</button></td>
-	</tr>
-</table>
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr class="table-header">
+	    <th>Name</th>
+			<th>Survey Question</th>
+			<th>Date Posted</th>
+			<th>Action</th>
+		</tr>
+		<tr *ngFor="let question of questions">
+	    <td>{{ question._user.username }}</td>
+			<td><a [routerLink]="['/question', question._id]">{{ question.question }}</a></td>
+	    <td>{{ question.createdAt | date:"longDate" }}</td>
+			<td><button *ngIf='question._user._id == user._id'
+	      (click)='deleteQuestion(question._id)'>Delete</button></td>
+		</tr>
+	</table>
+</div>
