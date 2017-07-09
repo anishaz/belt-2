@@ -1,36 +1,39 @@
-<br>
-<a href="/main">Go to Polls</a><br><br>
-<div class="logout">
-	<a href="/logout">Logout</a>
+<div class="header-area">
+	<a href="/main">Go to Polls</a>
+	<div class="logout">
+		<a href="/logout">Logout</a>
+	</div>
 </div>
 
-<h1 *ngIf='question'>{{ question.question }}</h1>
-<h4>Click the Vote button to choose one</h4>
-<br>
-<table class="table table-striped table-bordered">
-	<tr>
-    <th>Option</th>
-		<th>Current Count of Votes</th>
-		<th>Action</th>
-	</tr>
-	<tr *ngIf='question'>
-    <td>{{ question.option1 }}</td>
-		<td>{{ question.vote1 }}</td>
-		<td><button (click)="addVote1(question._id)">Vote</button></td>
-	</tr>
-  <tr *ngIf='question'>
-    <td>{{ question.option2 }}</td>
-    <td>{{ question.vote2 }}</td>
-    <td><button (click)="addVote2(question._id)">Vote</button></td>
-  </tr>
-  <tr *ngIf='question'>
-    <td>{{ question.option3 }}</td>
-    <td>{{ question.vote3 }}</td>
-    <td><button (click)="addVote3(question._id)">Vote</button></td>
-  </tr>
-  <tr *ngIf='question'>
-    <td>{{ question.option4 }}</td>
-    <td>{{ question.vote4 }}</td>
-    <td><button (click)="addVote4(question._id)">Vote</button></td>
-  </tr>
-</table>
+<div class="wrapper">
+	<h1 *ngIf='question'>{{ question.question }}</h1>
+	<h4>Click the Vote button to choose one</h4>
+
+	<table class="table table-striped table-bordered">
+		<tr>
+	    <th>Option</th>
+			<th>Current Count of Votes</th>
+			<th>Action</th>
+		</tr>
+		<tr *ngIf='question'>
+	    <td>{{ question.option1 }}</td>
+			<td>{{ question.vote1 }}</td>
+			<td><button (click)="addVote1(question._id)">Vote</button></td>
+		</tr>
+	  <tr *ngIf='question'>
+	    <td>{{ question.option2 }}</td>
+	    <td>{{ question.vote2 }}</td>
+	    <td><button (click)="addVote2(question._id)">Vote</button></td>
+	  </tr>
+	  <tr *ngIf='question'>
+	    <td>{{ question.option3 }}</td>
+	    <td>{{ question.vote3 }}</td>
+	    <td><button (click)="addVote3(question._id)">Vote</button></td>
+	  </tr>
+	  <tr *ngIf='question'>
+	    <td>{{ question.option4 }}</td>
+	    <td>{{ question.vote4 }}</td>
+	    <td><button (click)="addVote4(question._id)">Vote</button></td>
+	  </tr>
+	</table>
+</div>

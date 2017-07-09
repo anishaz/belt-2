@@ -4,10 +4,19 @@ button{
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   border-radius: 3px;
+  border: none;
+}
+
+.header-area {
+  background-color: #ccc;
+  padding: 20px 15px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 table {
-  width: 75%;
+  width: 100%;
   table-layout: fixed;
   border: 2px solid gray;
   font-family: 'Poppins', sans-serif;
@@ -33,12 +42,17 @@ h1, h4 {
   font-family: 'Libre Baskerville', serif;
 }
 
-.logout {
-  float: right;
-  margin-top: -39px;
+a:link, a:visited {
+  color: black;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.wrapper {
+  width: 950px;
+  margin: auto;
 }
 
 a:link, a:visited {
   color: black;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', sans-serif;
 }

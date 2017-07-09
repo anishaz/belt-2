@@ -5,6 +5,7 @@ button {
   width: 100px;
   margin-left: -20px;
   font-size: 15px;
+  border: none;
 }
 
 h1 {
@@ -19,12 +20,16 @@ h1 {
 h3 {
   font-family: 'Libre Baskerville', sans-serif;
   text-transform: capitalize;
+  margin: 0;
+  padding: 0;
 }
 
 .header-area {
   background-color: #ccc;
   padding: 20px 15px;
   margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 table {
@@ -70,7 +75,7 @@ a:link, a:visited {
   text-align: center;
   font-size: 20px;
   padding-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   margin-top: 10px;
   border: none;
 }
@@ -79,11 +84,6 @@ a:link, a:visited {
   color: white;
   text-decoration: none;
   font-family: 'Libre Baskerville', sans-serif;
-}
-
-.logout {
-  float: right;
-  margin-top: -38px;
 }
 
 .wrapper {

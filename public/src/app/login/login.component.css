@@ -1,24 +1,26 @@
-h2 {
-  text-align: center;
-  font-family: 'Libre Baskerville', serif;
-}
 
-form {
-  text-align: center;
+h2, li[_ngcontent-c1], .submit-button {
+  font-family: 'Libre Baskerville', serif;
 }
 
 li {
   color: red;
 }
 
-.login-form {
-  width: 100%;
-  padding: 100px;
-  margin: auto;
-}
-
 .login-header {
   color: #5F7367;
+}
+
+.login {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+
 }
 
 .submit-button {
@@ -26,8 +28,7 @@ li {
   background-color: #DBF9F4;
   border-radius: 3px;
   font-size: 15px;
-  padding: 12px;
-  font-family: 'Libre Baskerville', serif;
+  padding: 15px;
 }
 
 input[type=text] {
@@ -39,8 +40,4 @@ input[type=text] {
   outline: none;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
-}
-
-li[_ngcontent-c1] {
-  font-family: 'Libre Baskerville', serif;
 }
